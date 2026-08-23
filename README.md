@@ -7,7 +7,7 @@ Solutions and terminal-command writeups for the OS Lab assignments — each assi
 
 **Name:** Arnab De | **Roll No.:** 63 | **Section:** A | **Year:** 2nd
 
-## Contents
+## Contents 
 
 | Assignment | Topics Covered |
 |---|---|
