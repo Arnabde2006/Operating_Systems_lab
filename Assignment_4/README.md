@@ -116,19 +116,36 @@ multiplication is : 10
 
 ## 4. Take a number as input and check whether it is even or odd
 
-**About:** Shell arithmetic conditionals typically use `expr` or `$((...))` with the modulus operator to check divisibility by 2, inside an `if`/`else` block.
-
-**Suggested script (`evenodd.sh`):**
+**Commands:**
 ```bash
-echo "Enter a number:"
+gnome-text-editor mult.sh
+sh mult.sh
+```
+**About:** Shell arithmetic conditionals use `expr` with the modulus operator (`%`) to check divisibility by 2, inside an `if`/`else` block. `-eq 0` tests whether the remainder equals zero.
+
+**Script (`mult.sh`):**
+```bash
+echo "Enter a number"
 read n
 rem=`expr $n % 2`
 if [ $rem -eq 0 ]
 then
-    echo "$n is Even"
+    echo "$n is an even number"
 else
-    echo "$n is Odd"
+    echo "$n is an ODD number"
 fi
 ```
+> Note: only the run/output was available, not the actual script source — the version above is reconstructed to match the exact output text, including the ODD/even capitalization difference seen in your run. Worth confirming it matches your real `mult.sh`.
 
-> ⚠️ No screenshot or script was available for this question in the backup — run this (or your own version) and swap in the actual output.
+**Output:**
+```
+Enter a number
+23
+23 is an ODD number
+
+Enter a number
+898
+898 is an even number
+```
+
+![even/odd check](./screenshots/04-evenodd-run.png)
