@@ -15,6 +15,7 @@ Solutions and terminal-command writeups for the OS Lab assignments — each assi
 | [Assignment 2](./Assignment_2/README.md) | File permissions (`ls -l`, `chmod`), sorting (`sort`), field extraction (`cut`), deduplication (`uniq`), and text filtering (`grep`) |
 | [Assignment 3](./Assignment_3/README.md) | Process management — `ps`, `sleep`, background jobs (`&`), `kill`, `fork()`, orphan processes |
 | [Assignment 4](./Assignment_4/README.md) | Shell scripting — reading input (`read`), arithmetic with `expr` (sum, multiplication), even/odd conditional check |
+| [Assignment 5](./Assignment_5/README.md) | Shell scripting — sum of three numbers, greatest of three, series sum (`while` loop), leap year check |
 
 ## Structure
 
