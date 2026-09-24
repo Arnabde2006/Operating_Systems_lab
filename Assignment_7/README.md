@@ -243,53 +243,7 @@ done
 
 **Output**
 
-_No terminal screenshot captured yet for the corrected version — an earlier
-draft had the deposit/withdraw branches mixed up. Swap in a real one from
-`sh 7.6.sh` once you re-run it on the lab machine. Expected run:_
-
-```
-student@LAB3-09:~$ sh 7.6.sh
--------- ATM MENU --------
-Press 1 to check balance
-Press 2 to deposit
-Press 3 to withdraw
-Press 4 to exit
-Enter your choice
-1
-Your balance is: 5000
-
--------- ATM MENU --------
-Press 1 to check balance
-Press 2 to deposit
-Press 3 to withdraw
-Press 4 to exit
-Enter your choice
-2
-Enter amount to deposit
-200
-Deposit successful. New balance: 5200
-
--------- ATM MENU --------
-Press 1 to check balance
-Press 2 to deposit
-Press 3 to withdraw
-Press 4 to exit
-Enter your choice
-3
-Enter amount to withdraw
-500
-Withdrawal successful. New balance: 4700
-
--------- ATM MENU --------
-Press 1 to check balance
-Press 2 to deposit
-Press 3 to withdraw
-Press 4 to exit
-Enter your choice
-4
-Thank you for using the ATM
-student@LAB3-09:~$
-```
+![7.6 output](screenshots/7.6_output.png)
 
 ---
 
