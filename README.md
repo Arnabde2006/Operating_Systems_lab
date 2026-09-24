@@ -16,6 +16,8 @@ Solutions and terminal-command writeups for the OS Lab assignments — each assi
 | [Assignment 3](./Assignment_3/README.md) | Process management — `ps`, `sleep`, background jobs (`&`), `kill`, `fork()`, orphan processes |
 | [Assignment 4](./Assignment_4/README.md) | Shell scripting — reading input (`read`), arithmetic with `expr` (sum, multiplication), even/odd conditional check |
 | [Assignment 5](./Assignment_5/README.md) | Shell scripting — sum of three numbers, greatest of three, series sum (`while` loop), leap year check |
+| [Assignment 6](./Assignment_6/README.md) | Shell scripting — sum of digits, Fibonacci series, prime check, factorial, reverse a number |
+| [Assignment 7](./Assignment_7/README.md) | Shell scripting — GCD, number & digit patterns, calculator (`case`), mark sheet generator, menu-driven ATM system |
 
 ## Structure
 
